@@ -1,14 +1,19 @@
 # rest-api-docs
-Generate rest api documentation as a static web page with aglio and api blueprint. This is a simplified starting point example that includes file structuring required for complex api's.  
+Generate rest api documentation as a static web page with aglio and api blueprint. This is a simplified starting point example that includes file structuring required for complex api's. It requires node.js and npm.
 
-## build doc using default theme 
+## install aglio
+```bash
+npm install -g aglio
+```
+
+## build doc file using default theme 
 
 ```bash
 aglio -i index.apib -o index.html
 ```
 
 
-## build doc using slate theme 
+## build doc file using slate theme 
 
 ```bash
 aglio  --theme-variables slate -i index.apib -o index.html
