@@ -1,11 +1,5 @@
 # rest-api-docs
-Generate rest api documentation asa static web page with aglio and api blueprint
-
-## references
-
-[aglio](https://github.com/danielgtaylor/aglio)
-
-[api blueprint](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)
+Generate rest api documentation asa static web page with aglio and api blueprint. This is a simplified starting point example that includes file structuring required for complex api's.  
 
 ## build doc using default theme 
 
@@ -20,3 +14,8 @@ aglio -i index.apib -o index.html
 aglio  --theme-variables slate -i index.apib -o index.html
 ```
 
+## references
+
+[aglio](https://github.com/danielgtaylor/aglio)
+
+[api blueprint](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)
