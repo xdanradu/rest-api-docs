@@ -1,5 +1,5 @@
 # rest-api-docs
-Generate rest api documentation asa static web page with aglio and api blueprint. This is a simplified starting point example that includes file structuring required for complex api's.  
+Generate rest api documentation as a static web page with aglio and api blueprint. This is a simplified starting point example that includes file structuring required for complex api's.  
 
 ## build doc using default theme 
 
