@@ -1,7 +1,7 @@
 # rest-api-docs
 Generate rest api documentation asa static web page with aglio and api blueprint
 
-##References
+## references
 
 [aglio](https://github.com/danielgtaylor/aglio)
 
