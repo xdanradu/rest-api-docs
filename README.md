@@ -9,14 +9,14 @@ Generate rest api documentation asa static web page with aglio and api blueprint
 
 ## build doc using default theme 
 
-{% highlight win_platform %}
+```bash
 aglio -i index.apib -o index.html
-{% endhighlight %}
+```
 
 
 ## build doc using slate theme 
 
-{% highlight win_platform %}
+```bash
 aglio  --theme-variables slate -i index.apib -o index.html
-{% endhighlight %}
+```
 
